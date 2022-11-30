@@ -1,8 +1,16 @@
+/**
+ * @author; i-ice-bear, anshu naagar
+ * @description; These are the
+ * */
+
+
 package com.progress.learning.basic;
+
+import static java.lang.System.*;
 
 public class Literals {
     public static void main(String[] args) {
-        System.out.println("Literals");
+        out.println("Literals");
 
         byte ageStatement = (byte) 1300;
         int variableStatement = 10;
@@ -12,6 +20,6 @@ public class Literals {
         short shortStatement = 32;
         String mainString = "String literal";
 
-        System.out.println(mainString);
+        out.print(ageStatement + variableStatement + doubleStatement + longStatement + shortStatement+ mainString);
     }
 }

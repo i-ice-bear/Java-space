@@ -1,3 +1,9 @@
+/**
+ * @author; i-ice-bear, Anshu
+ * @descripton; in Java we take the input with the help of the scanner class module in java,
+ * */
+
+
 package com.progress.learning.basic;
 
 import java.util.Scanner;
