@@ -1,3 +1,10 @@
+/**
+ * @author; i-ice-bear, anshu
+ * @description; in java, there is a corresponding class of any variable and there are 8 types
+ *               of variable.
+ *               ex. int, boolean, long, short, String, byte, char, float, double
+ * */
+
 package com.progress.learning.basic;
 
 public class VariableBasics {
