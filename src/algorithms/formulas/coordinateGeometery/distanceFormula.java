@@ -1,4 +1,9 @@
-package algorithms.formulas;
+/**
+ * @author: Anshu
+ * @implNote; Distance mathematical formula
+ * */
+
+package algorithms.formulas.coordinateGeometery;
 
 public class distanceFormula {
     public static void main(String[] args) {

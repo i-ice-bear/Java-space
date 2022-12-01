@@ -1,5 +1,5 @@
 /**
- * Chapter 1 : Practice module
+ * Chapter 1 : Practice module with distance formula
  * */
 
 package com.progress.tests;
