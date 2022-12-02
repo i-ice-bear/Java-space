@@ -4,7 +4,7 @@
  * */
 
 
-package com.progress.learning.basic;
+package com.progress.learning.basic.Chapter1;
 
 import java.util.Scanner;
 

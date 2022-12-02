@@ -5,7 +5,7 @@
  *               ex. int, boolean, long, short, String, byte, char, float, double
  * */
 
-package com.progress.learning.basic;
+package com.progress.learning.basic.Chapter1;
 
 public class VariableBasics {
     public static void integerString(){

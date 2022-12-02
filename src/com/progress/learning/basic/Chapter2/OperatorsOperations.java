@@ -4,7 +4,7 @@
  * @// FIXME: 01-Mar-23
  * */
 
-package com.progress.learning.basic;
+package com.progress.learning.basic.Chapter2;
 
 public class OperatorsOperations {
     public static void main(String[] args) {

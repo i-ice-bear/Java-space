@@ -1,4 +1,4 @@
-package com.progress.learning.basic;
+package com.progress.learning.basic.Chapter2;
 
 public class associativity {
     public static void main(String[] args) {

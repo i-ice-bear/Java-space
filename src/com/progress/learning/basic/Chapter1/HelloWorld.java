@@ -3,7 +3,7 @@
  * @author: i-ice-bear, Anshu Naagar
  * */
 
-package com.progress.learning.basic;
+package com.progress.learning.basic.Chapter1;
 
 public class HelloWorld {
     public static void main(String[] args) {
