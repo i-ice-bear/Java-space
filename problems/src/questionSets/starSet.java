@@ -2,10 +2,14 @@ package questionSets;
 
 public class starSet {
     public static void main(String[] args) {
-        for (int i = 0; i < 5; i++) {
-            char starSet = '*';
-            System.out.println(starSet);
-            starSet++;
+        int rows, columns;
+        rows = 4;
+        columns = 6;
+        for (int i = 0; i < columns; i++) {
+            for (int j = 0; j < rows; j++) {
+                System.out.println('*');
+            }
+            System.out.println('*');
         }
     }
 }
