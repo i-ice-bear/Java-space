@@ -1,5 +1,4 @@
 package com.progress.learning.basic.Chapter3;
-import javax.swing.*;
 import java.util.Locale;
 
 public class stringMethods {
