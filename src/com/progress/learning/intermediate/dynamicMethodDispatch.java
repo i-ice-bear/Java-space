@@ -1,5 +1,4 @@
 package com.progress.learning.intermediate;
-
 class One{
     public void greet(){
         System.out.println("Java");
@@ -11,7 +10,6 @@ class One{
 
 class Two extends One{
     public void greet(){
-
     }
     public void name(String[] args){
         System.out.println("Java class 2");
