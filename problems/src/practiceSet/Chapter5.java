@@ -10,7 +10,7 @@ public class Chapter5 {
 			}
 			System.out.print("\n");
 		}
-		sumCalculation(args);
+		multiplicationTable(args);
 	}
 
 	public static void sumNaturalNumbers(String[] args) {
@@ -23,7 +23,12 @@ public class Chapter5 {
 	}
 
 	public static void multiplicationTable(String[] args) {
+		int tableNumber = 7, table = 1;
 
+		for (int i = 1; i <= 10; i++) {
+			table = tableNumber * i;
+			System.out.printf("%d x %d is : %d \n", tableNumber, i , table);
+		}
 	}
 	public static void decrementMultiplication(String[] args){
 		int tableNumber = 5, table = 1;
