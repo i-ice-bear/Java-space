@@ -9,7 +9,7 @@ public class multiDimensionalArray {
 	}
 	static void loopThrough(String[] args){
 		int[][] oddNumbers = { {1, 3, 5}, {2, 4, 6} };
-		System.out.println("Lenght of array : " + oddNumbers.length);
+		System.out.println("Length of array : " + oddNumbers.length);
 		for (int[] oddNumber : oddNumbers) {
 			System.out.println("Elements : " + Arrays.toString(oddNumber));
 		}
