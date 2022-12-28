@@ -1,6 +1,4 @@
 package practiceSet;
-
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Chapter7{
@@ -69,7 +67,7 @@ public class Chapter7{
 	}
 	static void convertTemperature(int temperature){
 //		(40°C × 9/5) + 32 = 104°F
-		int output = (temperature * 9 / 5) + 32;
+		float output = (temperature * 9.0f / 5.0f) + 32;
 		System.out.println("Fahrenheit is : " + output);
 
 	}
