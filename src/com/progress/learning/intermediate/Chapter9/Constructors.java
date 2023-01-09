@@ -10,12 +10,20 @@ class Employees {
         employeeID = 0;
         baseSalary = 20000;
     }
+
     public Employees(int employeeID){
         employeeName = "Jonny Bravo";
         this.employeeID = employeeID;
         baseSalary = 20000;
     }
-
+    public Employees(String employeeName) {
+        this.employeeName = employeeName;
+        baseSalary = 20000;
+    }
+    public Employees(int employeeID, String employeeName) {
+        this.employeeID  = employeeID;
+        this.employeeName = employeeName;
+    }
     public void setEmployeeID(int employeeID) {
         this.employeeID = employeeID;
     }
@@ -45,7 +53,7 @@ public class Constructors {
     public static void main(String[] args) {
         Random integerGenerator = new Random();
         int getRandomInt = integerGenerator.nextInt(1, 10000);
-        Employees employees = new Employees(getRandomInt);
+        Employees employees = new Employees(getRandomInt, "Anshu Naagar");
         System.out.println("Employee ID : " + employees.getEmployeeID());
         System.out.println("Employee Name : " + employees.getEmployeeName());
     }
